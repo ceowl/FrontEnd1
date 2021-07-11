@@ -1,0 +1,390 @@
+.header1 {
+    background-color: #222222;
+    color: #F3F3F3;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: relative;
+}
+
+.ofertas {
+    margin-left: 90px;
+}
+
+.esp-arg {
+    position: absolute;
+    right: 52px;
+}
+
+#front {
+    position: absolute;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    left: 40px;
+    top: 22px;
+}
+
+#cat-dog {
+    position: absolute;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    left: 109px;
+    top: 22px;
+}
+
+.header2 {
+    height: 61px;
+    background-color: #F0A83E;
+    position: relative;
+}
+
+.subheader {
+    position: absolute;
+    right: 40px;
+    margin-top: 22px;
+}
+
+.banner {
+    background-image: url('../img/foto.png');
+    height: 409px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+#b1 {
+    background-color: #fff;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 10px 1px 10px 1px;
+    width: 345px;
+    position: absolute;
+    right: 12px;
+    top: 165px;
+}
+
+#b2 {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 190px;
+    position: absolute;
+    right: 95px;
+    top: 222px;
+    margin-top: 10px;
+}
+
+#b3 {
+    background-color: #F0A83E;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 141px;
+    position: absolute;
+    right: 102px;
+    top: 253px;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+.big-paw {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: Roboto;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.subh {
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.productos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.precio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.p1{
+    position: relative;
+    left: -70px;
+    top: -40px;
+}
+
+.p2{
+    position: relative;
+    left: 10px;
+    top: -40px;
+}
+
+.p3{
+    position: relative;
+    bottom: 40px;
+    left: 100px; 
+}
+
+
+.descripcion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.precio {
+    color: #F0A83E;
+    margin-right: 130px;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.contacto {
+    text-align: center;
+}
+
+.contacto h2 {
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #3C2313;
+}
+
+.contacto div {
+    background-color: #3C2313;
+    color: #fff;
+    margin: 5px 100px 5px 100px;
+    text-align: center;
+    font-size: 35px;
+}
+
+#contacto{
+    text-align: center;
+    padding-top: 20px;
+}
+
+#form{
+    text-align:  center;
+  
+}
+
+.ind{
+    background-color: #3C2313;
+    width: 340px;
+    border-radius: 8px;
+    border-color: #3C2313;
+    color: #F3F3F3;
+    font-family: Roboto;
+    font-weight: 400px;
+    margin: 10px;
+    height: 40px;
+}
+
+#c1{
+    background-color: #8A8787;
+    color: #FFFFFF;
+    width: 110px;
+    height: 34px;
+    border-radius: 15px;
+    border-color: #8A8787;
+    margin-top: 41px;
+}
+
+#c2{
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    width: 110px;
+    height: 34px;
+    border-radius: 15px;
+    border-color: #F0A83E;
+    margin-top: 41px;
+    margin-bottom: 75px;
+}
+
+
+#pie{
+    background-color: #F0A83E;
+}
+
+#t{
+    width: 20px;
+}
+
+#sp{
+    padding-top: 19px 10px 19px 28px; 
+}
+
+#t1{
+    width: 400px;
+}
+
+#t_1{
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-weight: 700px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+#t2{
+    
+}
+
+#f1{
+    width: 271px;
+    height: 40px;
+    font-family: Roboto;
+    font-weight: 400px;
+    font-size: 9px;
+    border-radius: 15px;
+    border-color: #FFFFFF;
+    position:relative;
+    left: 390px;
+
+}
+
+#f2{
+    width: 70px;
+    height: 34px;
+    background-color: #3C2313;
+    font-size: 9px;
+    border-radius: 15px;
+    border-color: #3C2313;
+    color: #FFFFFF;
+    position:relative;
+    left: 390px;
+    top: 5px;
+}
+
+#form2{ 
+    text-align: right;
+
+}
+
+#img1{
+    position: relative;
+    top:20px;
+    left: 15px;
+}
+
+#mv1{
+    position: relative;
+    left: 30px;
+    bottom: 31px;
+    font-size: 20px;
+    font-family:Roboto;
+}
+
+#sp1{
+    font-family: Roboto;
+    font-weight:700;
+    color: #8A8787;
+    font-size:10px;
+    position:relative;
+    bottom: 40px;
+    left: 100px;
+}
+
+#img2{
+    position: relative;
+    bottom: 13px;
+    left: 15px;
+}
+
+#mv2{
+    position: relative;
+    left: 30px;
+    bottom: 62px;
+    font-size: 20px;
+    font-family:Roboto;
+}
+
+#sp2{
+    font-family: Roboto;
+    font-weight:700;
+    color: #8A8787;
+    font-size:10px;
+    position:relative;
+    bottom: 52px;
+    right: 44px;
+}
+
+#img3{
+    position: relative;
+    bottom: 10px;
+    left: 15px;
+}
+
+#mv3{
+    position: relative;
+    left: 30px;
+    bottom: 60px;
+    font-size: 20px;
+    font-family:Roboto;     
+}
+
+#sp3{
+    font-family: Roboto;
+    font-weight:700;
+    color: #8A8787;
+    position: relative;
+    font-size:10px;
+    bottom: 50px;
+    right: 127px;
+}
+
+#mv4{
+    padding-left: 500px;
+}
