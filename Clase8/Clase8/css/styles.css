@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
 .fondo{
     height: 200px;
 }
@@ -12,7 +18,67 @@
 .img-foto{
     position: absolute;
     width: 100px;
-    left: 600px;
-    top: 92px;
+    left: 590px;
+    top: 86px;
+    border-radius: 50%;
 }
 
+.div-sobre{
+    font-family: Roboto;
+    color: #9E9980;
+    text-align: center;
+}
+.div-form{
+    position: relative;
+    left: 240px;
+    top: 10px;
+    border: 2px #9E9980 solid;
+    width: 797px;
+    height: 400px; 
+}
+
+.h2-t{
+    background-color: #F3E496;
+    font-family: Roboto;
+    color: #9E9980;
+}
+
+.ul-li{
+    position: relative;
+    left: 20px;
+    padding: 20px; 
+}
+
+.p-li{
+    padding-left: 80px;
+}
+
+.p-li2{
+    padding-left: 120px;
+}
+
+.footer-tag{
+    background-color: #F3E496;
+    position: relative;
+    width: 100%;
+    height: 50px;
+    bottom: -10px;
+
+}
+
+.img-gmail{
+    position: absolute;
+    bottom: 10px;
+    left: 48%;
+    width: 70px;
+    height: 40px;
+}
+
+.div-email{
+    position: absolute;
+    left: 42%;
+    top: 17px;
+    font-family: Roboto;
+    font-size: 20px;
+    color: #9E9980;
+}
