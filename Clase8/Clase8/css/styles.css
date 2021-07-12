@@ -3,6 +3,8 @@
 *{
     padding: 0px;
     margin: 0px;
+    font-family: Roboto;
+    font-size: 15px;
 }
 .fondo{
     height: 200px;
@@ -26,7 +28,7 @@
 .div-sobre{
     font-family: Roboto;
     color: #9E9980;
-    text-align: center;
+    padding-left: 610px;
 }
 .div-form{
     position: relative;
@@ -41,6 +43,7 @@
     background-color: #F3E496;
     font-family: Roboto;
     color: #9E9980;
+    font-size: 20px;
 }
 
 .ul-li{
@@ -81,4 +84,17 @@
     font-family: Roboto;
     font-size: 20px;
     color: #9E9980;
+}
+
+.parrafo{
+    font-family: Roboto;
+    font-size: 15px;
+    padding-left: 20px;
+    margin-top: 25px;
+}
+
+.div-sobre1{
+    font-family: Roboto;
+    color: #9E9980;
+    padding-left: 630px;
 }
