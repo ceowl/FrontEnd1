@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/logincss.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header-p">
+            20% de descuento en todos los productos
+        </div>
+        <div class="div1">
+            <img class="header-img" src="img/pc.png">
+            <h1 class="header-h1">Nombre Tienda</h1>
+        </div>
+    </header>
+    <main>
+        <section class="form-section2">
+            <div class="contenedor">
+                <div class="encabezado-contenedor">
+                    <h1 class="h1-cont">Añadí tu super!</h1>
+                    <p class="txt-cont">Agregá tu personaje favorito completando las opciones.</p>
+                </div>
+                <div class="contenedor-form">
+                <form class="form-general">
+                    <div class="div-cont">
+                        <span class="form-span">*Nombre</span>
+                        <input type="text" name="nombre" class="input-text">
+                    </div>
+                    <div class="div-cont">
+                        <span class="form-span">Fecha</span>
+                        <input type="date" name="nombre" class="input-text">
+                    </div>
+                    <div class="div-cont">
+                        <span class="form-span"></span>
+                        <textarea class="areatexto">Descripción</textarea> 
+                    </div>
+                </form>    
+                <form class="form-general">
+                    <div>
+                        <span class="form-span">Especie</span>
+                        <select class="input-text" >
+                            <option value="TT">Terrestre</option>
+                            <option value="ET">Alienigena</option>
+                        </select>
+                    </div>
+                    <div>
+                        <span class="form-span">Agregar foto</span>
+                        <input type="button" name="nombre" value="Seleccionar archivo" class="input-boton"><span class=
+                        "span-boton">No se ingresó el valor</span>
+                    </div>
+                    <div class="chebx">
+                        <span class="form-span">Poderes</span>
+                        <div class="chebx-item">
+                            <input type="checkbox" name="poderes" value="Volar" class="input-check"><span class="poder">Volar</span>
+                        </div>
+                        <div class="chebx-item">
+                            <input type="checkbox" name="poderes" value="SuperInteligencia"><span class="poder">SuperInteligencia</span>
+                        </div>
+                        <div class="chebx-item">
+                            <input type="checkbox" name="poderes" value="Vista de rayo láser"><span class="poder">Vista de rayo láser</span>
+                        </div> 
+                        <div class="chebx-item">   
+                            <input type="checkbox" name="poderes" value="Teletransportación"><span class="poder">Teletransportación</span>
+                        </div>    
+                    </div>
+                    <div>
+                        <span class="form-span">Tipo de Personaje</span>
+                        <div class="chebx-item">
+                            <input type="radio" name="tipo" value="Heroe"><span class="poder">Héroe/Heroína</span>
+                        </div>
+                        <div class="chebx-item">    
+                            <input type="radio" name="tipo" value="Heroe"><span class="poder">Villano/Villana</span>
+                        </div>    
+                    </div>
+                </form> 
+                </div>
+                <button class="boton-form">
+                    Añadir
+                </button>
+                    
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="div-footer">Todos los derechos reservados a FRONT END I</div>
+    </footer>
+</body>
+</html>
