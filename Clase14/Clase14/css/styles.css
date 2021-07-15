@@ -3,10 +3,105 @@
     padding: 0%;
 }
 
-#principal{
-    background-color:#E5E5E5;
+.principal{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 20px;
 }
 
+.titulo1{
+    font-family: Roboto;
+    color: White;
+    padding: 30px 20px;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.tarjeta{
+    width: 300px;
+    height: 520px;
+    position: relative;
+    background-color: #F3F3F3;
+    margin: 35px;
+}
+
+.fondo{
+    width: 300px;
+}
+
+.parrafo{
+    width: 280px;
+}
+
+.corazones{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.heroe{
+    border-radius: 50%;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 120px;
+    left: 80px;
+}
+
+.nombre-heroe1{
+    position: absolute;
+    font-family: Roboto;
+    font-size: 22px;
+    top: 240px;
+    left: 95px;
+}
+
+.nombre-heroe2{
+    position: absolute;
+    font-family: Roboto;
+    font-size: 22px;
+    padding-top: 45px;
+    top: 200px;
+    left: 40px;
+}
+
+.nombre-heroe3{
+    position: absolute;
+    font-family: Roboto;
+    font-size: 22px;
+    padding-top: 45px;
+    top: 200px;
+    left: 80px;
+}
+
+.nombre-heroe4{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 22px;
+    padding-top: 45px;
+}
+
+.parrafo1{
+    font-family: Roboto;
+    font-size: 15px;
+    position: absolute;
+    top: 285px;
+    left: 20px;
+    width: 260px;
+}
+
+.boton{
+    background-color: #00669F;
+    color: white;
+    font-family: Roboto;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    top: 465px;
+    left: 90px;
+    border-color: #00669F;
+}
 #d1{
     position: relative;
     top:0px;
@@ -15,15 +110,15 @@
     height: 38px;
     bottom: 15px;
     background-color: #1CD1B0;
-    ;
 }
 
-#desc{
+.desc{
     position:relative;
     font-family: Roboto, sans-serif;
     font-size: 15px;
-    left: 10px;
-    top: 10px;
+    padding-left: 10px;
+    background-color: #D1891C;
+
 }
 
 #h1s{
@@ -32,90 +127,23 @@
     box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
 }
 
-#titulo1{
-    position:relative;
-    font-family: Roboto, sans-serif;
-    font-size: 40px;
-    top: 28px;
-    left: 28px;
-    bottom: 28px;
+.logo-fijo{
+    position: fixed;
+    right: 20px;
+    top: 350px;
 }
 
-#heroe{
-    border-radius: 50%;
-    position: relative;
-    left: 50px;
-    bottom: 70px;
+.circulo{
+    width: 50px;
+    height: 50px;
 }
 
-.corazones{
-    position: relative;
-    bottom: 270px;
-    left: 25px;
-}
-
-.nombre{
-    font-family: 'Roboto', sans-serif;
-    width: 400px;
-    font-size: 30px;
-}
-
-.h21{
-    position: relative;
-    bottom: 55px;
-    left: 80px;
-}
-
-.parrafo{
-    font-family: Roboto, sans-serif;
-    font-size: 16px;
-}
-
-.p1{
-    position: relative;
-    width: 267px;
-    height: 113px;
-    left: 18px;
-    bottom: 50px;
-}
-
-#div1{
-    width: 300px;
-    height: 529px;
-    position: absolute;
-    left: 32px;
-    top: 291px;
-    background-color: #F3F3F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-#div2{
-    width: 300px;
-    height: 529px;
-    position: absolute;
-    left: 470px;
-    top: 291px;
-    background-color: #F3F3F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-#div3{
-    width: 300px;
-    height: 529px;
-    position: absolute;
-    left: 908px;
-    top: 291px;
-    background-color: #F3F3F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.botones{
-    background-color: #00669F;
-    font-size: 15px;
-    font-family: Roboto, sans-serif;
+.Mas {
     color: white;
-    Width: 128.78px;
-    Height: 48.52px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    font-size: 30px;
 }
 
 #bt1{
@@ -124,10 +152,13 @@
     bottom: 16px;
 }
 
+.Github{
+    font-family: ;
+}
 
 #pie{
     position: relative;
-    top: 850px;
+    top: 20px;
     height: 51px;
     background-color: #00669F;
     color: white;
@@ -135,9 +166,41 @@
 }
 
 #pf{
-    position:relative;
     font-family: Roboto,sans-serif;
     font-size: 16px;
-    left: 16px;
-    top: 16px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.vector{
+    position: absolute;
+    width: 150px;
+    height: 38px;
+    bottom: 10px; 
+    right: 30px;
+}
+
+@media screen and (max-width: 500px){
+    .tarjeta{
+        background-color: #FCFCFC;
+        width: 280px;
+    }
+    .fondo{
+        width: 280px;
+    }
+    .parrafo{
+        position: absolute;
+        width: 250px;
+        left: -2px;
+    } 
+}
+
+@media screen and (min-width: 740px){
+    .tarjeta{
+        background-color: #ECECEC;
+        margin: 20px;
+    }
+    .logo-fijo{
+        margin: 20px;
+    }
 }
